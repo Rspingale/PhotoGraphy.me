@@ -128,10 +128,12 @@
 
 .sidebar_menu .logo :hover{
 
-    box-shadow: 0px 0px 10px rgba(197, 60, 60, 1);
+    /* box-shadow: 0px 0px 10px rgba(197, 60, 60, 1); */
+    scale: 1.1;
+    transform: translateY(-1px);
     
     transition: transform 0.8s ease-in-out;
-    transition: scale 0.8s ease-in-out;
+    transition: scale 0.2s ease-in-out;
     
 }
 
